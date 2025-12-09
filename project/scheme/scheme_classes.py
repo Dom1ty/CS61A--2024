@@ -27,7 +27,6 @@ class Frame:
         """Define Scheme SYMBOL to have VALUE."""
         # BEGIN PROBLEM 1
         self.bindings[symbol] = value
-
         # END PROBLEM 1
 
     def lookup(self, symbol):
